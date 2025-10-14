@@ -150,7 +150,7 @@
 /* ===Menu=== */
 
 #menu{
-    height: 85vh;
+    height: 93vh;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -162,10 +162,16 @@
     height: 33%;
 }
 
+@media(min-width:1075px){
+    #menu{
+        height: 71vh;
+    }
+
+}
+
 @media(min-width:767px){
     #menu{
         flex-direction: row;
-
     }
     #menu .menu-item {
     height: 52%;
