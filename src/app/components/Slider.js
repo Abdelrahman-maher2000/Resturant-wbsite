@@ -39,7 +39,7 @@ const Slider = () => {
             >
                 {/* ==Text Container== */}
                 <div className="col-sm-12 col-md-6 cont d-flex align-items-center justify-content-center gap-5 flex-column text-danger fw-bold">
-                    <h1 className="text-uppercase text-center px-2">
+                    <h1 className="text-uppercase text-center px-2 slidertitle">
                         {data[currentSlide].title}
                     </h1>
                     <button className="fw-bold btn btn-danger mb-5">

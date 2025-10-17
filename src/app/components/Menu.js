@@ -29,6 +29,7 @@ const Menu = () => {
                 <img
                     src={"/close.png"}
                     onClick={() => setOpen(false)}
+                    style={{ width: "20px", height: "20px" }}
                 />
             )}
 
@@ -73,10 +74,7 @@ const Menu = () => {
                         </Link>
                     )}
 
-                    <CartIcon
-                        color={"text-white"}
-                        // onClick={() => setOpen(false)}
-                    />
+                    <CartIcon color={"text-white"} />
                 </div>
             )}
         </>

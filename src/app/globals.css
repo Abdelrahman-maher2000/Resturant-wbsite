@@ -52,6 +52,7 @@
     .image1{
         margin-top: -130px;
     }
+    
 }
 
 
@@ -62,6 +63,9 @@
 @media(max-width:767px){
     .cont{
         height: 50% !important;
+    }
+    .slidertitle{
+        font-size: 40px !important;
     }
 }
 
